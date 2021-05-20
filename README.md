@@ -48,7 +48,7 @@ instructions on setting up pulsar in HPC cluser.
    ```sh
    sudo nano app.yml
    ```
-   changing path in persistence_directory , staging_directory and tool_dependency_dir attributes
+   change path in persistence_directory , staging_directory and tool_dependency_dir attributes
 
  ### Lauching Pulsar 
   ```sh
