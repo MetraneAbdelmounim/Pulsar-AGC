@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+    This file is maintained by Ansible - CHANGES WILL BE OVERWRITTEN
+-->
+<job_metrics>
+    <core />
+    <cpuinfo verbose="true" />
+    <meminfo />
+    <uname />
+</job_metrics>
+
+

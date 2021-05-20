@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--
+    This file is maintained by Ansible - CHANGES WILL BE OVERWRITTEN
+-->
+<dependency_resolvers>
+    <conda auto_init="True" />
+</dependency_resolvers>

@@ -1,0 +1,20 @@
+---
+amqp_publish_retry: true
+amqp_publish_retry_interval_max: 60
+amqp_publish_retry_interval_start: 10
+amqp_publish_retry_interval_step: 10
+amqp_publish_retry_max_retries: 5
+conda_auto_init: true
+conda_auto_install: true
+message_queue_url: pyamqp://galaxy_au:agc@2021@10.16.128.69:5672//pulsar/galaxy_au
+min_polling_interval: 0.5
+persistence_directory: /home/metrane/pulsar/files/persisted_data
+staging_directory: /home/metrane/pulsar/staging
+tool_dependency_dir: /home/metrane/pulsar/deps
+
+
+managers:
+  _default_:
+    type: queued_cli
+    job_plugin: Slurm
+    shell_plugin: LocalShell
