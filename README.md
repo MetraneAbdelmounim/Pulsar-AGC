@@ -37,19 +37,14 @@ instructions on setting up pulsar in HPC cluser.
    ```
 7. Configure Pulsar to monitor a message queue 
    ```sh
-   pulsar --mq
+   pulsar-config --mq
    ```
 8. Additional configration
    ```sh
    cat "app.yml.dev" > "app.yml"
    cat "server.ini.dev" > "server.ini"
    ```
-9. Additional configration
-   ```sh
-   cat "app.yml.dev" > "app.yml"
-   cat "server.ini.dev" > "server.ini"
-   ```
-10. Change Path of pulsar directory
+9. Change Path of pulsar directory
    ```sh
    sudo nano app.yml
    ```
