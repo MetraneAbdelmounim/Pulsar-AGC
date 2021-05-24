@@ -48,10 +48,17 @@ instructions on setting up pulsar in HPC cluser.
    ```sh
    sudo nano app.yml
    ```
-   change path in persistence_directory , staging_directory and tool_dependency_dir attributes
+   change pulsar path in persistence_directory , staging_directory and tool_dependency_dir attributes
 
  ### Lauching Pulsar 
   ```sh
    pulsar [--daemon]
    ```
   --daemon argument can be supplied to run Pulsar as a daemon
+   ### Pulsar Logs 
+  ```sh
+   sudo journactl -f -u pulsar.service
+   ```
+the result should be like this : 
+
+![log_result](https://user-images.githubusercontent.com/48381378/119356694-a12f0500-bc9e-11eb-83d4-35e020f340e6.PNG)
