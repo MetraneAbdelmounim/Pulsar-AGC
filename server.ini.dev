@@ -18,7 +18,7 @@ host = localhost
 [app:main]
 paste.app_factory = pulsar.web.wsgi:app_factory
 
-app_config=/mnt/pulsar/config/app.yml
+app_config=app.yml
 
 ## Configure uWSGI (if used).
 [uwsgi]
